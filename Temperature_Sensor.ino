@@ -35,7 +35,7 @@ void loop() {
   {
     Serial.println("greater than 30");
     digitalWrite(LED_BUILTIN,HIGH);   // on board led ON
-    Delay_500();                     // custom delay funcion called for 250 milli seconds
+    Delay_500();                     // custom delay funcion called for 500 milli seconds
     digitalWrite(LED_BUILTIN,LOW);   // on board led OFF
     Delay_500();   
   }
