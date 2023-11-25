@@ -60,7 +60,7 @@ void Delay_250()
 }
 void Delay_500()
 {
-  uint32_t cycles = clockCyclesPerMicrosecond()*50000/4; // multiply by  25000 to get number of cycles for 250 milliseconds
+  uint32_t cycles = clockCyclesPerMicrosecond()*50000/4; // multiply by  50000 to get number of cycles for 500 milliseconds
   
   volatile uint32_t i;
   for(i=0; i<cycles; i++)
